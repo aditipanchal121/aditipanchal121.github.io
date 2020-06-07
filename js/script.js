@@ -1,3 +1,21 @@
+
+
+$(window).on("load", function(){
+    $(".loader .inner").fadeOut(500, function(){
+        $(".loader").fadeOut(750)
+    });
+
+    $(".items").isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 1500,
+            easing: 'linear',
+            queue: false
+        }
+    })
+   
+})
+
 $(document).ready(function() { 
     $('#slides').superslides({
         animation: 'fade',
@@ -6,15 +24,13 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["I am a machine learning researcher.","I am an aspiring software engineer.",
-        "I am a Women in Engineering ambassador.", "I am a frequent volunteer.", "I am an avid reader.",
-        "I am a food enthusiast."],
-        typeSpeed: 100,
+        strings: ["student.","researcher.","aspiring software engineer.",
+        "volunteer.", "avid reader.", "innovator.", 
+        "food enthusiast."],
+        typeSpeed: 50,
         loop: true,
         startDelay: 1000,
         showCursor: true,
-        smartBackspace: true,
-        shuffle: true,
         backSpeed: 10,
         cursorBlinking: true
     })
@@ -49,15 +65,6 @@ $(document).ready(function() {
     })
 
     $("[data-fancybox]").fancybox()
-
-    $(".items").isotope({
-        filter: '*',
-        animationOptions: {
-            duration: 1500,
-            easing: 'linear',
-            queue: false
-        }
-    })
 
     $("#filters a").click(function() {
         $("#filters .current").removeClass("current")
