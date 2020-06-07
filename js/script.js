@@ -6,13 +6,17 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Machine Learning Researcher.","Aspiring Software Engineer.",
-        "Women in Engineering Ambassador.", "Frequent Volunteer.", "Avid Reader.",
-        "Food Enthusiast."],
+        strings: ["I am a machine learning researcher.","I am an aspiring software engineer.",
+        "I am a Women in Engineering ambassador.", "I am a frequent volunteer.", "I am an avid reader.",
+        "I am a food enthusiast."],
         typeSpeed: 100,
         loop: true,
         startDelay: 1000,
-        showCursor: false
+        showCursor: true,
+        smartBackspace: true,
+        shuffle: true,
+        backSpeed: 10,
+        cursorBlinking: true
     })
 
     $('.owl-carousel').owlCarousel({

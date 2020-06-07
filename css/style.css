@@ -44,24 +44,36 @@
 
 .titleMessage .heading .main{
     font-size: 50px;
-    text-shadow: rgba(0, 0, 0, 0.4);
+    text-shadow: rgba(0, 0, 0, 0.6);
     letter-spacing: 7px;
     font-weight: 700;
 }
 
 .titleMessage .heading .subtitle{
-    font-size: 20px;
+    font-size: large;
     color: #FFF;
-    text-shadow: rgba(0, 0, 0, 0.4);
-    font-weight: lighter;
-    letter-spacing: 5px;
+    text-shadow: rgba(0, 0, 0, 0.6);
+    font-weight: 450;
+    letter-spacing: 3px;
 }
+
 .titleMessage .heading .sub{
-    font-size: 23px;
+    font-size: large;
     color: #FFF;
-    text-shadow: rgba(0, 0, 0, 0.4);
-    font-weight: lighter;
-    letter-spacing: 5px;
+    text-shadow: rgba(0, 0, 0, 0.6);
+    font-weight: 450;
+    letter-spacing: 3px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: #FFF;
 }
 
 .start{
@@ -91,6 +103,11 @@
     color: #FFF;
     background-color: #399AE6;
     border-color: #399AE6;
+}
+
+.logo{
+    width: 40px;
+    height: auto;
 }
 
 .section {
@@ -398,21 +415,13 @@
     -o-transform: scale(1.05, 1.05);
     -ms-transform: scale(1.05, 1.05);
     -transform: scale(1.05, 1.05);
+
 }
 
 .items{
     padding: 0;
 }
 
-.copyrightSection{
-    background-color: #000;
-    color: #FFF;
-    padding: 30px 5px;
-}
-
-.copyrightSection p{
-    margin: 0;
-}
 
 #navigation{
     background-color:#399AE6;
