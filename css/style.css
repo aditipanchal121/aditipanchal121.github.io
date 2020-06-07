@@ -85,7 +85,7 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: #FFF;
-    top: 78%;
+    top: 85%;
     z-index: 5;
     text-align: center;
     border: 1px solid #FFF;
@@ -394,6 +394,14 @@
 .items .openButton{
     float: left;
     left: -200px;
+}
+
+.items .noLink{
+    float: left;
+    left: -300px;
+}
+.items .item:hover .noLink{
+    left: 30px;
 }
 
 .items .projectLink{
