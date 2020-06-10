@@ -38,17 +38,18 @@
 
 .titleMessage .heading .main{
     font-size: 50px;
-    text-shadow: rgba(0, 0, 0, 0.6);
+    text-shadow: rgba(0, 0, 0, 0.8);
     letter-spacing: 7px;
     font-weight: 700;
     color: #399AE6;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .titleMessage .heading .arrow{
     font-size: 40px;
     font-weight: 700;
     color: #399AE6;
-    text-shadow: 0px 2px 5px rgba(0,0,0,0.4);
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.8);
 }
 
 .titleMessage .heading .sub{
@@ -100,8 +101,9 @@
 }
 
 .logo{
-    width: 40px;
+    width: 32px;
     height: auto;
+    padding-left: 5px;
 }
 
 .section {
@@ -275,10 +277,14 @@
     background-color: #399AE6;
 }
 
+.filter ul{
+    margin-left: -40px;
+}
+
 .filter a{
     color: #FFF;
     border: 1px solid #FFF;
-    padding: 10px 18px;
+    padding: 10px 10px 10px 10px;
     display: block;
     text-decoration: none;
 }
@@ -286,6 +292,7 @@
 .filter li{
     display: inline-block;
     padding: 5px;
+    text-align: center;
 }
 
 .filter .current{

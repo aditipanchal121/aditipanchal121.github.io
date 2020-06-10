@@ -84,11 +84,19 @@ $(document).ready(function() {
         return false
     })
 
+    
     $("#navigation li a").click(function(e) {
-        e.preventDefault()
+        if(!$(".default"))
+            e.preventDefault()
         var target = $(this).attr("href")
-        var targetPos = $(target).offset().top;
-        $("html, body").animate({scrollTop: targetPos - 50}, "slow")
+        var nav = $(target);
+
+        if(nav.length)
+        {
+            var targetPos = $(target).offset().top;
+            $("html, body").animate({scrollTop: targetPos - 50}, "slow")
+        }
+       
     })
 
     $(".learnButton").click(function(e) {
