@@ -24,7 +24,7 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["student.","researcher.","aspiring software engineer.",
+        strings: ["student.","researcher.","aspiring data scientist.",
         "volunteer.", "avid reader.", "innovator.", 
         "food enthusiast."],
         typeSpeed: 50,
