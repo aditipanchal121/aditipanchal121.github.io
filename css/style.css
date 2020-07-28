@@ -197,8 +197,11 @@
     padding: 20px 80px;
 }
 
-.contactSection .icon{
+.contactSection .a .i{
+    position: absolute;
     font-size: 48px;
+    width: 100%;
+    height: auto;
 }
 
 .contactSection p {
@@ -208,8 +211,9 @@
 }
 
 .contactButton {
+
     color: #1c8ce0;
-    padding: 15px 20px;
+    padding: 10px;
     display: inline-block;
     margin-top: 20px;
 }
@@ -218,6 +222,21 @@
     text-decoration: none;
     color: #FFF;
     background-color: #87c1ec;
+}
+
+.linkButton {
+    font-size: 48px;
+    color: #1c8ce0;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.linkButton:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #87c1ec;
+    border-radius: 30%;
 }
 
 .filter a {
