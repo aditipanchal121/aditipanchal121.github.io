@@ -1,4 +1,4 @@
-.overlay{
+.overlay {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -16,7 +16,7 @@
     z-index: 6;
 }
 
-.slides-navigation a.prev{
+.slides-navigation a.prev {
     left: 20px;
     background-image: url(../img/icons/prev.png);
 }
@@ -26,7 +26,7 @@
     background-image: url(../img/icons/next.png);
 }
 
-.titleMessage{
+.titleMessage {
     position: absolute;
     width: 100%;
     height: 250px;
@@ -36,7 +36,7 @@
     text-align: center;
 }
 
-.titleMessage .heading .main{
+.titleMessage .heading .main {
     font-size: 50px;
     text-shadow: rgba(0, 0, 0, 0.8);
     letter-spacing: 7px;
@@ -45,14 +45,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.titleMessage .heading .arrow{
+.titleMessage .heading .arrow {
     font-size: 40px;
     font-weight: 700;
     color: #399AE6;
-    text-shadow: 0px 2px 5px rgba(0,0,0,0.8);
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
-.titleMessage .heading .sub{
+.titleMessage .heading .sub {
     font-size: 30px;
     color: #FFF;
     text-shadow: rgba(0, 0, 0, 0.6);
@@ -60,7 +60,7 @@
     letter-spacing: 3px;
 }
 
-.typed-cursor{
+.typed-cursor {
     opacity: 1;
     font-weight: 100;
     -webkit-animation: blink 0.7s infinite;
@@ -71,7 +71,7 @@
     color: #FFF;
 }
 
-.start{
+.start {
     display: inline;
 }
 
@@ -90,17 +90,18 @@
     display: inline-block;
     background-color: #399AE6;
     border-color: #399AE6;
-   
-    
+
+
 }
-.learnButton:hover{
+
+.learnButton:hover {
     text-decoration: none;
     color: #FFF;
     background-color: #399AE6;
     border-color: #399AE6;
 }
 
-.logo{
+.logo {
     width: 32px;
     height: auto;
     padding-left: 5px;
@@ -119,35 +120,40 @@
     display: inline-block;
 }
 
-.aboutTitle{
+.aboutTitle {
     color: #399AE6;
     font-size: 31px;
     margin-top: 0px;
 }
 
-#about p{
-    text-align: justify; 
+#about p {
+    text-align: justify;
 }
 
-.skillSection{
+.skillSection {
     background-color: #399AE6;
     padding: 80px;
 }
 
-.col-md-12{
+.col-md-12 {
     color: #FFF;
 }
 
-.skill{
+.skill {
     text-align: center;
     margin-left: 10px;
 }
 
-.skill h4{
+
+.skillSection .skillTitle{
     color: #FFF;
 }
 
-.chart{
+.skill h4 {
+    color: #FFF;
+}
+
+.chart {
     position: relative;
     width: 152px;
     height: 152px;
@@ -156,134 +162,65 @@
     margin-top: 20px;
 }
 
-.chart canvas{
+.chart canvas {
     position: absolute;
     left: 0;
     top: 0;
 }
 
-.chart .percent{
+.chart .percent {
     color: #000;
     line-height: 152px;
     display: inline-block;
     font-size: 35px;
 }
 
-.chart .percent:after{
+.chart .percent:after {
     content: "%";
 }
 
-.statsSection{
+.jobs{
     padding: 80px;
 }
 
-.squareItem{
-    margin-top: 50px;
-    margin-bottom: 30px;
-    position: relative;
-}
-
-.squareInnerContainer{
-    position: relative;
-    padding: 20px 10px 20px 10px;
+.jobs .xpTitle,
+.jobs .xpSub{
     text-align: center;
-    border: 2px dotted #444;
-    border-top: none;
-}
-
-.squareInnerContainer:before,
-.squareInnerContainer:after{
-    content: "";
-    position: absolute;
-    top: 0px;
-    width: 30%;
-    border-bottom: 2px dotted #444;
-}
-
-.squareInnerContainer:before{
-    right: 2px;
-}
-
-.squareInnerContainer:after{
-    left: 2px;
-}
-
-.squareContent h2{
-    font-size: 115%;
-    margin-top: 10px;
-    font-weight: 400;
-    color: #399AE6;
-}
-
-.squareContent p{
-    font-size: 14px;
-    margin: 0px;
-    font-weight: 400;
-}
-
-.statsSection h2{
     width: 100%;
-    text-align: center;
 }
 
-.statsSection p{
-    width: 100%;
-    text-align: center;
-}
-
-.squareIcon{
-    position: absolute;
-    left: 50%;
-    top: -37px;
-    width: 40%;
-    height: 60px;
-    font-size: 50px;
-    margin-left: -20%;
-    color: #399AE6;
-}
-
-.contactSection{
+.statsSection {
     padding: 80px;
 }
 
-.contactSection p{
+.contactSection {
+    padding: 20px 80px;
+}
+
+.contactSection .icon{
+    font-size: 48px;
+}
+
+.contactSection p {
     color: #000;
     font-size: large;
     font-weight: bold;
 }
-.contactButton{
-    color: #399AE6;
+
+.contactButton {
+    color: #1c8ce0;
     padding: 15px 20px;
     display: inline-block;
     margin-top: 20px;
-    border: 1px solid #399AE6;
-    border-radius: 2px;
 }
-.contactButton:hover{
+
+.contactButton:hover {
     text-decoration: none;
     color: #FFF;
-    background-color: #399AE6;
+    background-color: #87c1ec;
 }
 
-.resumeButton{
-    color: #399AE6;
-    padding: 15px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid #399AE6;
-    border-radius: 2px;
-}
-.resumeButton:hover{
-    text-decoration: none;
-    color: #FFF;
-    background-color: #399AE6;
-}
-
-.filter ul{
-    margin-left: -40px;
-}
-
-.filter a{
+.filter a {
     color: #FFF;
     border: 1px solid #FFF;
     padding: 10px 10px 10px 10px;
@@ -291,43 +228,53 @@
     text-decoration: none;
 }
 
-.filter li{
+.filter li {
     display: inline-block;
     padding: 5px;
     text-align: center;
 }
 
-.filter .current{
+.filter .current {
     background-color: #FFF;
     border-color: #FFF;
     color: #399AE6;
 }
-.filter{
+
+.filter {
     text-align: center;
     width: 100%;
 }
 
-.portfolioSection{
+.portfolioSection .portTitle{
+    color: #FFF;
+}
+.portfolioSection {
     background-color: #399AE6;
     padding: 80px;
 }
-.portfolioSection .heading{
+
+.portfolioSection .heading {
     color: #FFF;
     text-align: center;
     padding-bottom: 20px;
     width: 100%;
 }
 
-.items li{
+.portfolio .filter .li{
+    border: 2px;
+    border-color: #FFF;
+}
+
+.items li {
     display: inline-block;
     padding: 5px;
 }
 
-.itemsContainer{
-    width:100%;
+.itemsContainer {
+    width: 100%;
 }
 
-.items li img{
+.items li img {
     width: 100%;
     border-radius: 3%;
     -webkit-transition: all 0.2s linear, 1s;
@@ -337,14 +284,14 @@
     -transition: all 0.2s linear, 1s;
 }
 
-.items .item{
+.items .item {
     position: relative;
     display: block;
     overflow: hidden;
 }
 
-.items .icons{
-    position:absolute;
+.items .icons {
+    position: absolute;
     width: 90px;
     height: 40px;
     left: 50%;
@@ -354,13 +301,13 @@
     z-index: 3;
 }
 
-.items .icons i{
+.items .icons i {
     color: #FFF;
     font-size: 20px;
     margin-top: 9px;
 }
 
-.items a{
+.items a {
     width: 40px;
     height: 40px;
     background-color: #399AE6;
@@ -374,10 +321,10 @@
     -transition: all 0.2s linear, 0.2s;
 }
 
-.items .itemOverlay{
+.items .itemOverlay {
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 0px;
     top: 0px;
@@ -390,37 +337,38 @@
     -transition: all 0.2s linear, 1s;
 }
 
-.items .item:hover .itemOverlay{
+.items .item:hover .itemOverlay {
     opacity: 1;
 }
 
-.items .openButton{
+.items .openButton {
     float: left;
     left: -200px;
 }
 
-.items .noLink{
+.items .noLink {
     float: left;
     left: -300px;
 }
-.items .item:hover .noLink{
+
+.items .item:hover .noLink {
     left: 30px;
 }
 
-.items .projectLink{
+.items .projectLink {
     float: right;
     right: -200px;
 }
 
-.items .item:hover .openButton{
+.items .item:hover .openButton {
     left: 0px;
 }
 
-.items .item:hover .projectLink{
+.items .item:hover .projectLink {
     right: 0px;
 }
 
-.items .item:hover img{
+.items .item:hover img {
     -webkit-transform: scale(1.05, 1.05);
     -moz-transform: scale(1.05, 1.05);
     -o-transform: scale(1.05, 1.05);
@@ -429,44 +377,44 @@
 
 }
 
-.items{
+.items {
     padding: 0;
 }
 
 
-#navigation{
-    background-color:#399AE6;
+#navigation {
+    background-color: #399AE6;
     color: #FFF;
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
 }
 
-#navigation li{
+#navigation li {
     padding: 0 10px;
 }
 
-#navigation li a{
+#navigation li a {
     color: #FFF;
 }
 
 .navbar-brand,
-.navbar-brand:hover{
+.navbar-brand:hover {
     color: #FFF;
     font-weight: bold;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background: url(../img/icons/menu.png);
     background-size: 100%;
 }
 
-.fixedNav #navigation{
+.fixedNav #navigation {
     position: fixed;
     top: 0;
 }
 
-.loader{
+.loader {
     width: 100%;
     height: 100%;
     background-color: #FFF;
@@ -476,7 +424,7 @@
     z-index: 1000;
 }
 
-.loader .inner{
+.loader .inner {
     width: 100%;
     height: 100%;
     background: url(../img/loader.gif) center center no-repeat;

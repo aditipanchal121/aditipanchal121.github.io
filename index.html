@@ -7,12 +7,11 @@
 
         <link rel = "icon" href="img/portfolio/swan.png" type = "image/x-icon"> 
         <link rel="stylesheet" type="text/css" href="css/superslides.css">
+        <link rel="stylesheet" type="text/css" href="css/timeline.css">
         <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-      
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -29,11 +28,8 @@
 
             <div class="slides-container">
                 <img src="img/slide1.jpg" alt="">
-                <img src="img/slide2.jpg" alt="">
                 <img src="img/slide3.jpg" alt="">
-                <img src="img/slide4.jpg" alt="">
                 <img src="img/slide5.jpg" alt="">
-                <img src="img/slide6.jpg" alt="">
                 <img src="img/slide7.jpg" alt="">
                 <img src="img/slide8.jpg" alt="">
                 <img src="img/slide9.jpg" alt="">
@@ -83,7 +79,7 @@
                         <a class="nav-link" href="#portfolio">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact/Resume</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <!--
                     <li class="nav-item">
@@ -106,16 +102,16 @@
                         <h4 class="aboutTitle">ABOUT ME</h4>
 
                         <p>Hi! My name is Aditi. I am a rising junior Computer Science student at Texas A&ampM University, in the Engineering Honors Program.
-                        This summer, I am interning with Capital One as a Software Engineer. Recently, I have been experimenting with TensorFlow to build several 
-                        ML models that do fun things (write Shakespeare-esque plays and predict car purchases). I am excited about data science, and hope to gain more experience
-                        with AI by interning in the field and through my Undergraduate Research Scholars thesis. I am also learning React and GraphQL to build an eCommerce app,
-                        to get more exposure to web app development. Some of my projects are linked below, but you can also visit my <a href="https://github.com/aditipanchal121" target="_blank">GitHub</a href>
+                        Recently, I have been experimenting with TensorFlow to build several ML models that do fun things (write Shakespeare-esque plays and predict car purchases). 
+                        I am excited about data science, and hope to gain more experience with AI by interning in the field and through my Honors Research thesis. 
+                        After getting some exposure to AWS from my internship this summer, I started studying for an AWS Solutions Architect Certification.
+                        Some of my projects are also linked below, but you can also visit my <a href="https://github.com/aditipanchal121" target="_blank">GitHub</a href>
                         to see all of them.</p>
                         <p>Outside of school, I love to get involved in the community through volunteering and by working on projects that employ technology for social good.
                         I also travel, read, practice guitar, take pictures and watch movies (I am watching several of the "Classics" these days for the first time). 
                         During quarantine however, I have been traveling vicarously through my books and movies.</p>
                         <p>I would love to hear from you about internship opportunities, or if you would simply like to get in touch! I am currently looking for
-                        summer 2021 internships. </p>
+                        summer 2021 internships. Check out my resume <a href="resume/AditiPanchal.pdf" target="_blank">here</a href>!</p>
                     </div>
 
                 </div>
@@ -248,181 +244,165 @@
             </div>
         </div>
 
-        <div id="stats" class="statsSection">
-            <div class="container">
-                <div class="row">
-                   <h2 class="statsTitle">EXPERIENCE</h2>
-                   <p>List of internships and extracurricular experience I've had.</p>
-                  
-                    <div class="col-md-3 col-sm-6">
+        <div id="stats" class="jobs">
+            
+            <h2 class="xpTitle">EXPERIENCE</h2>
+            <p class='xpSub'>List of professional and extracurricular experiences.</p>
 
-                        <div class="squareItem">
+            <section class="cd-timeline js-cd-timeline">
+                <div class="container max-width-lg cd-timeline__container">
+                   
+                    <div class="cd-timeline__block">
+                        <div class="cd-timeline__img cd-timeline__img--job">
+                        <img src="img/icons/job.png" alt="Picture">
+                        </div> <!-- cd-timeline__img -->
 
-                            <div class="squareInnerContainer">
+                        <div class="cd-timeline__content text-component">
+                            <h2 class="job">Capital One Software Engineering Internship</h2>
+                            <p class="color-contrast-medium"> SUMMER 2020</p>
+                            <p class="color-contrast-medium">- Led intern team in designing a brand new feature, by making design/implementation decisions and assigning sprint stories
+                            for self and teammates based on planned tasks</p>
+                            <p class="color-contrast-medium">- Leveraged AWS S3 and Lambda to create a full-stack web application that allows bulk upload of client information
+                            uploaded as CSV files, that are validated and the records are added to a database</p>
+                            <p class="color-contrast-medium">- Reduced time needed to add/modify/delete client and/or bank information in database from 3 days to 1 minute by creating a UI</p>
+                            <p class="color-contrast-medium">- Implemented several DevOps tools (including lockbox and pipeline) to make path to production easier</p>
 
-                                <div class="squareIcon">
-                                    <i class="fa fa-university"></i>
-                                </div>
-
-                                <div class="squareContent">
-                                    <h2>Capital One Technology Internship Program</h2>
-                                    <p>Intern for Summer 2020 on the Payments Technology team. More Coming soon!</p>
-                                </div>
+                            <div class="flex justify-between items-center">
+                                <span class="cd-timeline__date">Summer 2020</span>
+                                <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
                             </div>
-                        </div>
-                   </div>
+                        </div> <!-- cd-timeline__content -->
+                    </div> <!-- cd-timeline__block -->
 
-                   <div class="col-md-3 col-sm-6">
+                    <div class="cd-timeline__block">
+                        <div class="cd-timeline__img cd-timeline__img--wifi">
+                        <img src="img/icons/wifi.png" alt="Picture">
+                        </div> <!-- cd-timeline__img -->
 
-                        <div class="squareItem">
-
-                            <div class="squareInnerContainer">
-
-                                <div class="squareIcon">
-                                    <i class="fa fa-rocket"></i>
-                                </div>
-
-                                <div class="squareContent">
-                                    <h2>Aggie Challenge: ML Research</h2>
-                                    <p>Implemented Tabular Q Learning Algorithm and Q Learning Neural Network.</p>
-                                    <p></p>
-                                    <p>Co-authored publication for IEEE 2020 Conference about creating high fidelity imagine simulations with OpenCV</p>
-                                </div>
+                        <div class="cd-timeline__content text-component">
+                            <h2 class="job">AT&ampT Summer Learning Academy</h2>
+                            <p class="color-contrast-medium"> SUMMER 2020</p>
+                            <p class="color-contrast-medium">Completed online learning externship certification program through 80 hours of speaker series
+                            and courses on building competencies in technology and leadership skills.</p>
+    
+                            <div class="flex justify-between items-center">
+                                <span class="cd-timeline__date"></span>
+                                <a href="https://www.youracclaim.com/badges/c3a7d1aa-c413-4744-b193-9a71e3f11ebc?source=linked_in_profile"
+                                class="btn btn--subtle readButton"
+                                target="_blank">See Credential</a>
                             </div>
-                        </div>
-                    </div>
+                        </div> <!-- cd-timeline__content -->
+                    </div> <!-- cd-timeline__block -->
 
-                    <div class="col-md-3 col-sm-6">
+                    <div class="cd-timeline__block">
+                        <div class="cd-timeline__img cd-timeline__img--earth">
+                        <img src="img/icons/earth.png" alt="Picture">
+                        </div> <!-- cd-timeline__img -->
 
-                        <div class="squareItem">
-
-                            <div class="squareInnerContainer">
-
-                                <div class="squareIcon">
-                                    <i class="fa fa-laptop"></i>
-                                </div>
-
-                                <div class="squareContent">
-                                    <h2>JPMorgan Chase Sophomore Edge Program</h2>
-                                    <p>Invited to highly selective virtual conference with JPMC Software Engineers, to learn more about the
-                                    Internship program and technologies used in financial technology.</p>
-                                </div>
+                        <div class="cd-timeline__content text-component">
+                            <h2 class="job">SpaceCRAFT ML Research</h2>
+                            <p class="color-contrast-medium"> FALL 2019 - SPRING 2020</p>
+                            <p class="color-contrast-medium">- Implemented Tabular Q Learning Algorithm and Q Learning Neural Network.</p>
+                            <p class='color-contrast-medium'>- Co-authored publication for IEEE 2020 Conference about creating high fidelity imagine simulations with OpenCV</p>
+    
+                            <div class="flex justify-between items-center">
+                                <span class="cd-timeline__date">Spring 2020</span>
+                               <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
                             </div>
-                        </div>
-                    </div>
+                        </div> <!-- cd-timeline__content -->
+                    </div> <!-- cd-timeline__block -->
 
-                    <div class="col-md-3 col-sm-6">
+                    <div class="cd-timeline__block">
+                        <div class="cd-timeline__img cd-timeline__img--bank">
+                        <img src="img/icons/bank.png" alt="Picture">
+                        </div> <!-- cd-timeline__img -->
 
-                        <div class="squareItem">
-
-                            <div class="squareInnerContainer">
-
-                                <div class="squareIcon">
-                                    <i class="fa fa-credit-card"></i>
-                                </div>
-
-                                <div class="squareContent">
-                                    <h2>Citi Technology Early ID Program</h2>
-                                    <p>Invited to mentorship program for select sophomores with Software Engineers at Citi for guided practice
-                                    for skills needed to be successful during future internships.</p>
-                                </div>
+                        <div class="cd-timeline__content text-component">
+                            <h2 class="job">JPMorgan Chase Sophomore Edge Program</h2>
+                            <p class="color-contrast-medium"> MAR 2020</p>
+                            <p class="color-contrast-medium">Invited to highly selective virtual conference with JPMC Software Engineers, to learn more about
+                            internships and technologies used in financial technology.</p>
+    
+                            <div class="flex justify-between items-center">
+                                <span class="cd-timeline__date"></span>
+                                <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
                             </div>
-                        </div>
-                   </div>
+                        </div> <!-- cd-timeline__content -->
+                    </div> <!-- cd-timeline__block -->
 
-                   <div class="col-md-3 col-sm-6">
+                    <div class="cd-timeline__block">
+                        <div class="cd-timeline__img cd-timeline__img--card">
+                        <img src="img/icons/card.png" alt="Picture">
+                        </div> <!-- cd-timeline__img -->
 
-                        <div class="squareItem">
+                        <div class="cd-timeline__content text-component">
+                            <h2 class="job">Citi Technology Early ID Program</h2>
+                            <p class="color-contrast-medium"> FEB 2020</p>
+                            <p class="color-contrast-medium">Selected for sophomore mentorship program with Software Engineers at Citi for guided practice
+                            with skills needed to be successful during future internships.</p>
+    
+                            <div class="flex justify-between items-center">
+                                <span class="cd-timeline__date"></span>
+                                <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
+                            </div>
+                        </div> <!-- cd-timeline__content -->
+                    </div> <!-- cd-timeline__block -->
 
-                            <div class="squareInnerContainer">
+                    <div class="cd-timeline__block">
+                        <div class="cd-timeline__img cd-timeline__img--laptop">
+                        <img src="img/icons/laptop.png" alt="Picture">
+                        </div> <!-- cd-timeline__img -->
 
-                                <div class="squareIcon">
-                                    <i class="fa fa-building"></i>
-                                </div>
-
-                                <div class="squareContent">
-                                    <h2>Capital One Software Engineering Summit</h2>
-                                    <p>1 of 60 students invited to McLean, VA for conference with workshops on multiple technologies including
+                        <div class="cd-timeline__content text-component">
+                            <h2 class="job">Capital One Software Engineering Summit</h2>
+                            <p class="color-contrast-medium"> JAN 2020</p>
+                            <p class="color-contrast-medium">1 of 60 students invited to McLean, VA for conference with workshops on multiple technologies including
                                     those used in ML, Bot Development and Software Engineering.</p>
-                                </div>
+    
+                            <div class="flex justify-between items-center">
+                                <span class="cd-timeline__date">Winter 2020</span>
+                                <!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
                             </div>
-                        </div>
-                   </div>
+                        </div> <!-- cd-timeline__content -->
+                    </div> <!-- cd-timeline__block -->
 
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="squareItem">
-
-                            <div class="squareInnerContainer">
-
-                                <div class="squareIcon">
-                                    <i class="fa fa-female"></i>
-                                </div>
-
-                                <div class="squareContent">
-                                    <h2>Women in Engineering Ambassador and Social Media Team Lead</h2>
-                                    <p>Led committee promoting connectedness between prospective and current 
-                                    students to encourage women to pursue engineering by holding workshops
-                                    and seminars.</p>
-                                </div>
-                            </div>
-                        </div>
-                   </div>
-                </div>
-            </div>
+            </section> <!-- cd-timeline -->
         </div>
 
         <div id="portfolio" class="portfolioSection">
             <div class="container">
                 <div class="row">
                     <div class="heading">
-                        <h2>PROJECTS</h2>
+                        <h2 class="portTitle">PROJECTS</h2>
                         <p>A gallery view of some of my projects.</p>
                     </div>
 
                     <div class="filter">
                         <ul id="filters">
                             <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                            <li><a href="#" data-filter=".apps">APPS</a></li>
+                            <li><a href="#" data-filter=".ml">DATA SCIENCE</a></li>
                             <li><a href="#" data-filter=".hackathon">HACKATHON</a></li>
                             <li><a href="#" data-filter=".personal">PERSONAL</a></li>
                             <li><a href="#" data-filter=".web">WEB</a></li>
-                            <li><a href="#" data-filter=".apps">APPS</a></li>
-                            <li><a href="#" data-filter=".ml">ML/DATA SCIENCE</a></li>
+                            
                         </ul>
                     </div>
 
                     <div class="itemsContainer">
                         <ul class="items">
 
-                            <li onclick="" class="web personal col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="img/portfolio/thumbnails/monsters.png">
-
-                                    <div class="icons">
-                                        <a href="img/portfolio/monsters.png" title="View Image" class="openButton" data-fancybox data-caption="A preview of the code used to create a monster business card app,
-                                        for my first project using React. Check out the link!">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a href="https://aditipanchal121.github.io/monsters-rolodex/" target="_blank" class="projectLink">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-
-                                    <div class="itemOverlay"></div>
-                                </div>
-                            
-                            </li>
-
                             <li onclick="" class="ml personal col-xs-6 col-sm-4 col-md-3 col-lg-3">
                                 <div class="item">
-                                    <img src="img/portfolio/thumbnails/ShakespearePlaywrightANN.jpg">
+                                    <img src="img/portfolio/thumbnails/mail.png">
 
                                     <div class="icons">
-                                        <a href="img/portfolio/shakespeare.png" title="View Image" class="openButton" data-fancybox data-caption="A sample play that the deep learning neural network wrote. Using TensorFlow 
-                                        Keras, I was able to make these plays quite entertaining and funny.">
+                                        <a href="img/portfolio/mail.png" title="View Image" class="openButton" data-fancybox data-caption="This program
+                                        analyzes subject lines of emails and classifies them as 'spam' or 'ham' and it was built using the scikit-learn Naive Bayes
+                                        supervised learning algorithm. It also uses Pandas, NumPy, Matplotlib and Seaborn.">
                                             <i class="fa fa-search"></i>
                                         </a>
-                                        <a href="https://github.com/aditipanchal121/Shakespeare-Playwright" target="_blank" class="projectLink">
+                                        <a href="https://github.com/aditipanchal121/Email-Spam-Filter" target="_blank" class="projectLink">
                                             <i class="fa fa-link"></i>
                                         </a>
                                     </div>
@@ -451,12 +431,32 @@
                             
                             </li>
 
+                            <li onclick="" class="ml personal col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                                <div class="item">
+                                    <img src="img/portfolio/thumbnails/ShakespearePlaywrightANN.jpg">
+
+                                    <div class="icons">
+                                        <a href="img/portfolio/shakespeare.png" title="View Image" class="openButton" data-fancybox data-caption="A sample play that the deep learning neural network wrote. Using TensorFlow 
+                                        Keras, I was able to make these plays quite entertaining and funny.">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <a href="https://github.com/aditipanchal121/Shakespeare-Playwright" target="_blank" class="projectLink">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="itemOverlay"></div>
+                                </div>
+                            
+                            </li>
+
+
                             <li onclick="" class="web personal col-xs-6 col-sm-4 col-md-3 col-lg-3">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/port.png">
 
                                     <div class="icons">
-                                        <a href="img/portfolio/port.png" title="View Image" class="openButton" data-fancybox data-caption="This is part of the code behind this website. My portfolio is one of my most recent
+                                        <a href="img/portfolio/port.png" title="View Image" class="openButton" data-fancybox data-caption="My portfolio is one of my most recent
                                         experiences with JavaScript, HTML and CSS on a larger project.">
                                             <i class="fa fa-search"></i>
                                         </a>
@@ -553,7 +553,7 @@
 
                                     <div class="icons">
                                         <a href="img/portfolio/thumbnails/Popularitea.png" title="View Image" class="noLink" data-fancybox data-caption="This project was based off of observations, in ways to improve the operations of
-                                        a local tea house. Used SQLite database to connect to application tha optimizes schedule for efficiency of ingredient utilization and storage. Not shown, under the regulations of business operations
+                                        a local tea house. Used SQLite database to connect to application that optimizes schedule for efficiency of ingredient utilization and storage. Not shown, under the regulations of business operations
                                         of company.">
                                             <i class="fa fa-search"></i>
                                         </a>
@@ -595,17 +595,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
-                        <p class="subHeading">Feel free to contact me for opportunities!</p>
+                        <p class="subHeading"></p>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col text-right">
-                        <a href="resume/AditiPanchal.pdf" target="_blank" class="resumeButton">RESUME</a>
+                        <a href="https://www.linkedin.com/in/aditipanchal/" target="_blank" class="contactButton"><img class="linkedin" src="img/icons/in.png"></a>
+                    </div>
+
+                    <div class="col text-center">
+                        <a href="https://github.com/aditipanchal121" target="_blank" class="contactButton"><i class="fa fa-github icon"></i></a>
                     </div>
 
                     <div class="col text-left">
-                        <a href="mailto:aditipanchal121@gmail.com" class="contactButton">EMAIL</a>
+                        <a href="mailto:aditipanchal121@tamu.edu" class="contactButton"><img class="github" src="img/icons/email.png"></a>
                     </div>
                 </div>
 
@@ -614,6 +618,7 @@
         </div>
 
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="js/jquery.superslides.min.js"></script>
         <script src="js/typed.min.js"></script>
         <script src="https://use.fontawesome.com/a7963882bf.js"></script>
@@ -624,6 +629,8 @@
         <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/timeline.js"></script>
+
     
     </body>
 </html>
