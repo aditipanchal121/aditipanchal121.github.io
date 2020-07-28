@@ -232,13 +232,6 @@
     margin-top: 20px;
 }
 
-.linkButton:hover {
-    text-decoration: none;
-    color: #FFF;
-    background-color: #87c1ec;
-    border-radius: 30%;
-}
-
 .filter a {
     color: #FFF;
     border: 1px solid #FFF;
