@@ -8,7 +8,7 @@ $(window).on("load", function(){
     $(".items").isotope({
         filter: '*',
         animationOptions: {
-            duration: 1500,
+            duration: 750,
             easing: 'linear',
             queue: false
         }
@@ -75,7 +75,7 @@ $(document).ready(function() {
         $(".items").isotope({
             filter: selector,
             animationOptions: {
-                duration: 1500,
+                duration: 750,
                 easing: 'linear',
                 queue: false
             }
@@ -102,8 +102,8 @@ $(document).ready(function() {
     $(".learnButton").click(function(e) {
         e.preventDefault()
         var target = $(this).attr("href")
-        var targetPos = $(target).offset().top;
-        $("html, body").animate({scrollTop: targetPos - 50}, "slow")
+        var targetpos = $(target).offset().top;
+        $("html, body").animate({scrollTop: targetpos - 50}, "slow")
     })
 
     const nav = $("#navigation");
@@ -125,7 +125,7 @@ $(document).ready(function() {
         }
     }
 
-    $(window).on("scroll", stickyNavigation);
+    $(window).on("scroll", stickyNavigation); 
 
 
 })
