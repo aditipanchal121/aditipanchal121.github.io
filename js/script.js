@@ -5,16 +5,12 @@ $(window).on("load", function(){
         $(".loader").fadeOut(50)
     });
 
-    $(".items").isotope({
-        filter: '*',
-        animationOptions: {
-            duration: 750,
-            easing: 'linear',
-            queue: false
+    var mixer = mixitup('.items', {
+        animation: {
+            easing: 'ease-in-out',
+            duration: 500
         }
-    })
-    
-   
+    });
 })
 
 $(document).ready(function() { 
@@ -67,12 +63,11 @@ $(document).ready(function() {
 
     $("[data-fancybox]").fancybox()
 
-    $("#filters a").click(function() {
+    $("#filters button").click(function() {
         $("#filters .current").removeClass("current")
         $(this).addClass("current")
 
-        var mixer = mixitup('.itemsContainer');
-
+        var selector = $(this).attr("data-filter")
         return false
     })
 

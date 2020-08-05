@@ -102,7 +102,7 @@
                         <h4 class="aboutTitle">ABOUT ME</h4>
 
                         <p>Hi! My name is Aditi. I am a rising junior Computer Science student at Texas A&ampM University, in the Engineering Honors Program.
-                        I have been experimenting with React.js recently, as well as TensorFlow to build several ML models that do fun things (write Shakespeare-esque plays and predict car purchases). 
+                        I have been experimenting with React.js recently, as well as TensorFlow to build several ML models that do fun things (like writing Shakespeare-esque plays and predicting car purchases). 
                         I am excited about data science, and hope to gain more experience with AI by interning in the field and through my Honors Research thesis. 
                         After getting some exposure to AWS from my internship this summer, I started studying for an AWS Solutions Architect Certification.
                         Some of my projects are linked below, but you can also visit my <a href="https://github.com/aditipanchal121" target="_blank">GitHub</a href>
@@ -377,35 +377,26 @@
                         <p>A gallery view of some of my projects.</p>
                     </div>
                     
-                    <div class="controls">
-                        <button type="button" data-filter="*" class="current">All<button>
-                        <button type="button" data-filter=".apps">Apps<button>
-                        <button type="button" data-filter=".ml">Data Science<button>
-                        <button type="button" data-filter=".hackathon">Hackathons<button>
-                        <button type="button" data-filter=".personal">Personal<button>
-                        <button type="button" data-filter=".web">Web<button>
-                    </div>
-
-                    <button type="button" data-sort="order:asc">Ascending</button>
-                    <button type="button" data-sort="order:descending">Descending</button>
-                    <button type="button" data-sort="random">Random</button>
-                    
                     <div class="filter">
                         <ul id="filters">
-                            <li><a href="#" data-filter="*" class="current">ALL</a></li>
-                            <li><a href="#" data-filter=".apps">APPS</a></li>
-                            <li><a href="#" data-filter=".ml">DATA SCIENCE</a></li>
-                            <li><a href="#" data-filter=".hackathon">HACKATHON</a></li>
-                            <li><a href="#" data-filter=".personal">PERSONAL</a></li>
-                            <li><a href="#" data-filter=".web">WEB</a></li>
-                            
+                            <li><button class='button current' data-filter="all">All</button></li>
+                            <li><button class='button' data-filter=".apps">Apps</button></li>
+                            <li><button class='button' data-filter=".ml">Data Science</button></li>
+                            <li><button class='button' data-filter=".hackathon">Hackathons</button></li>
+                            <li><button class='button' data-filter=".personal">Personal</button></li>
+                            <li><button class='button' data-filter=".web">Web</button></li>
                         </ul>
+
+                        <div class="sort">
+                            <button class="sortBtn" data-sort="date:asc"><i class="fa fa-arrow-up"></i></button>
+                            <button class="sortBtn" data-sort="date:descending"><i class="fa fa-arrow-down currentSort"></i></button>
+                            <button class="sortBtn" data-sort="random"><i class="fa fa-random"></i></button>
+                        </div>
                     </div>
 
                     <div class="itemsContainer">
                         <ul class="items">
-
-                            <li onclick="" class="ml personal col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <li onclick="" class="mix ml personal col-xs-6 col-sm-4 col-md-3 col-lg-3" data-date="10">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/mail.png">
 
@@ -425,7 +416,7 @@
                             
                             </li>
 
-                            <li onclick="" class="ml personal col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <li onclick="" class="mix ml personal col-xs-6 col-sm-4 col-md-3 col-lg-3" data-date="9">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/car.png">
 
@@ -444,7 +435,7 @@
                             
                             </li>
 
-                            <li onclick="" class="ml personal col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <li onclick="" class="mix ml personal col-xs-6 col-sm-4 col-md-3 col-lg-3" data-date="8">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/ShakespearePlaywrightANN.jpg">
 
@@ -464,7 +455,7 @@
                             </li>
 
 
-                            <li onclick="" class="web personal col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <li onclick="" class="mix web personal col-xs-6 col-sm-4 col-md-3 col-lg-3" data-date="7">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/port.png">
 
@@ -483,7 +474,7 @@
                             
                             </li>
 
-                            <li onclick="" class="ml col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <li onclick="" class="mix ml col-xs-6 col-sm-4 col-md-3 col-lg-3" data-date="6">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/DQLNN.png">
 
@@ -502,7 +493,7 @@
                             
                             </li>
 
-                            <li onclick="" class="hackathon apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <li onclick="" class="mix hackathon apps col-xs-6 col-sm-4 col-md-3 col-lg-3" data-date="5">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/GoalDigger.png">
 
@@ -521,7 +512,7 @@
                             
                             </li>
 
-                            <li onclick="" class="ml col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <li onclick="" class="mix ml col-xs-6 col-sm-4 col-md-3 col-lg-3" data-date="4">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/QLRA.png">
 
@@ -540,7 +531,7 @@
                             
                             </li>
 
-                            <li onclick="" class="web col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <li onclick="" class="mix web col-xs-6 col-sm-4 col-md-3 col-lg-3" data-date="3">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/jeopardy.png">
 
@@ -560,7 +551,7 @@
                             
                             </li>
 
-                            <li onclick="" class="personal web col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <li onclick="" class="mix personal web col-xs-6 col-sm-4 col-md-3 col-lg-3" data-date="2">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/Popularitea.png">
 
@@ -578,7 +569,7 @@
                             
                             </li>
 
-                            <li onclick="" class="hackathon apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <li onclick="" class="mix hackathon apps col-xs-6 col-sm-4 col-md-3 col-lg-3" data-date="1">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/ProceSure.png">
 
@@ -635,6 +626,7 @@
         <script src="js/jquery.superslides.min.js"></script>
         <script src="js/typed.min.js"></script>
         <script src="https://use.fontawesome.com/a7963882bf.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/jquery.easypiechart.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -643,7 +635,6 @@
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
         <script src="js/script.js"></script>
         <script src="js/timeline.js"></script>
-         <script src="js/mixitup.min.js"></script>
 
     
     </body>
