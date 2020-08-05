@@ -71,16 +71,7 @@ $(document).ready(function() {
         $("#filters .current").removeClass("current")
         $(this).addClass("current")
 
-        var selector = $(this).attr("data-filter")
-
-        $(".items").isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        })
+        var mixer = mixitup('.itemsContainer');
 
         return false
     })

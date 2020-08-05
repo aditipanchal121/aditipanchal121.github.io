@@ -102,7 +102,7 @@
                         <h4 class="aboutTitle">ABOUT ME</h4>
 
                         <p>Hi! My name is Aditi. I am a rising junior Computer Science student at Texas A&ampM University, in the Engineering Honors Program.
-                        I have been experimenting with React,js recently, as well as TensorFlow to build several ML models that do fun things (write Shakespeare-esque plays and predict car purchases). 
+                        I have been experimenting with React.js recently, as well as TensorFlow to build several ML models that do fun things (write Shakespeare-esque plays and predict car purchases). 
                         I am excited about data science, and hope to gain more experience with AI by interning in the field and through my Honors Research thesis. 
                         After getting some exposure to AWS from my internship this summer, I started studying for an AWS Solutions Architect Certification.
                         Some of my projects are linked below, but you can also visit my <a href="https://github.com/aditipanchal121" target="_blank">GitHub</a href>
@@ -376,7 +376,20 @@
                         <h2 class="portTitle">PROJECTS</h2>
                         <p>A gallery view of some of my projects.</p>
                     </div>
+                    
+                    <div class="controls">
+                        <button type="button" data-filter="*" class="current">All<button>
+                        <button type="button" data-filter=".apps">Apps<button>
+                        <button type="button" data-filter=".ml">Data Science<button>
+                        <button type="button" data-filter=".hackathon">Hackathons<button>
+                        <button type="button" data-filter=".personal">Personal<button>
+                        <button type="button" data-filter=".web">Web<button>
+                    </div>
 
+                    <button type="button" data-sort="order:asc">Ascending</button>
+                    <button type="button" data-sort="order:descending">Descending</button>
+                    <button type="button" data-sort="random">Random</button>
+                    
                     <div class="filter">
                         <ul id="filters">
                             <li><a href="#" data-filter="*" class="current">ALL</a></li>
@@ -630,6 +643,7 @@
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
         <script src="js/script.js"></script>
         <script src="js/timeline.js"></script>
+         <script src="js/mixitup.min.js"></script>
 
     
     </body>
