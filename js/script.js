@@ -1,18 +1,18 @@
 
-$(".items").isotope({
-    filter: '*',
-    animationOptions: {
-        duration: 750,
-        easing: 'linear',
-        queue: false
-    }
-})
 
 $(window).on("load", function(){
-    $(".loader .inner").fadeOut(500, function(){
-        $(".loader").fadeOut(750)
+    $(".loader .inner").fadeOut(75, function(){
+        $(".loader").fadeOut(50)
     });
 
+    $(".items").isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+        }
+    })
     
    
 })
