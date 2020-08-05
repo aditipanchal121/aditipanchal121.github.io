@@ -232,18 +232,52 @@
     margin-top: 20px;
 }
 
-.filter a {
-    color: #FFF;
-    border: 1px solid #FFF;
-    padding: 10px 10px 10px 10px;
-    display: block;
-    text-decoration: none;
+.button{
+    color: white;
+    border: 0;
+    background-color: inherit;
+    padding: 5px 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button:hover{
+    color: white;
+    background-color: #7e8d99;
+}
+
+.sortBtn{
+    padding: 5px 5px;
+    border: 2px white;
+    background-color: inherit;
+    padding: 5px 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.sortBtn:hover{
+    color: white;
+    background-color: #7e8d99;
+}
+
+.sort .fa{
+    color: white;
+    font-size: 20px;
+}
+
+.filter{
+    width: 100%;
 }
 
 .filter li {
     display: inline-block;
     padding: 5px;
     text-align: center;
+    border: 5px white;
+}
+
+#filters{
+    margin-bottom: 0px;
 }
 
 .filter .current {
@@ -255,6 +289,11 @@
 .filter {
     text-align: center;
     width: 100%;
+}
+
+.itemsContainer{
+    display: inline-block;
+    text-align: center;
 }
 
 .portfolioSection .portTitle{
