@@ -3543,7 +3543,7 @@ mark {
 }
 
 .cd-timeline__img--job {
-    background-color: rgb(189, 183, 183);
+    background-color: rgb(199, 67, 199);
 }
 
 .cd-timeline__img--wifi {
@@ -3560,6 +3560,10 @@ mark {
 
 .cd-timeline__img--card {
     background-color: #ef476f;
+}
+
+.cd-timeline__img--woman {
+    background-color: rgb(204, 108, 233);
 }
 
 .cd-timeline__img--laptop {
