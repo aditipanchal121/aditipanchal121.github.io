@@ -3471,7 +3471,7 @@ mark {
     left: 18px;
     height: 100%;
     width: 4px;
-    background-color: darkgray;
+    background-color: #399AE6;
 }
 
 @media (min-width: 64rem) {
@@ -3540,6 +3540,10 @@ mark {
 
 .cd-timeline__block .job{
     font-size: 20px;
+}
+
+.cd-timeline__img--dsc {
+    background-color: rgb(238, 210, 214) ;
 }
 
 .cd-timeline__img--job {
