@@ -262,7 +262,7 @@
     var chart = document.querySelector(".tl-chart");
     var readout = document.querySelector(".tl-readout");
     var readoutDefault = readout.textContent;
-    var lanes = [["work", "Work"], ["research", "Research"], ["education", "Education"]];
+    var lanes = [["education", "Education"], ["work", "Work"], ["research", "Research"]];
     var now = new Date();
     var nowYear = now.getFullYear() + now.getMonth() / 12;
 

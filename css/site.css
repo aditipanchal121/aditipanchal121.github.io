@@ -240,7 +240,7 @@ h3, h4 { margin: 0; font-size: 1rem; line-height: 1.4; }
     font-weight: 600;
 }
 p { margin: 0 0 0.75rem; }
-.lede { color: var(--muted); margin-top: -0.5rem; }
+.lede { margin-top: -0.35rem; color: var(--muted); font-size: 0.9rem; }
 
 /* About */
 .about { display: grid; grid-template-columns: 7rem 1fr; gap: 1.5rem; align-items: start; }
@@ -276,6 +276,15 @@ p { margin: 0 0 0.75rem; }
 .entry:first-of-type { border-top: 0; }
 .when { margin: 0; color: var(--muted); font-size: 0.9rem; font-variant-numeric: tabular-nums; padding-top: 0.05rem; }
 .undated .entry { grid-template-columns: 1fr; }
+.simple-list { margin: 0.5rem 0 0; padding-left: 1.1rem; }
+.simple-list li { margin-bottom: 0.25rem; }
+
+/* Sub-items inside an entry (e.g. honors and leadership within a degree) */
+.nested { margin-top: 0.6rem; }
+.nested-label { margin: 0.75rem 0 0; font-size: 0.95rem; font-weight: 600; color: var(--accent); }
+.nested-item { margin-top: 0.45rem; }
+.nested-head h4 { font-size: 0.9375rem; font-weight: 600; }
+.brief .nested { display: none; }
 .what .tech { margin: 0.35rem 0 0; padding-left: 0; color: var(--muted); font-size: 0.875rem; }
 
 /* Linked titles keep heading color; a small arrow marks them as links */
@@ -402,7 +411,8 @@ kbd {
 .palette-hint kbd { margin-right: 0.15rem; }
 
 /* Career timeline */
-.timeline { margin: 0 0 1.25rem; }
+.glance { margin-top: 1.25rem; }
+.timeline { margin: 0.75rem 0 0; }
 .tl-chart { position: relative; }
 .tl-lane { display: grid; grid-template-columns: 5.5rem 1fr; align-items: center; gap: 0.75rem; height: 1.6rem; }
 .tl-lane-label { font-size: 0.8rem; color: var(--muted); text-align: right; }
